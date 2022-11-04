@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(47, 45, 45);
+}
+
+.main-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items:center;
+}
+
+.main-nav {
+  display: flex;
+}
+
+.main-nav {
+  list-style: none;
+}
+
+.main-nav li a {
+  text-decoration: none;
+  padding: 0.1em 1em;
+  font-size: 30px;
+}
+
+.main-nav li a:hover,
+.active {
+  color: rgb(144, 130, 130);
+  text-shadow: 1em;
+}
+.logo {
+  display: flex;
+  width: 120px;
+  height: 90px;
+}
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(149, 143, 143);
+  border-color: rgb(37, 36, 36);
+}
+.texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  background: url("img/giphy.gif");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  min-height: 450px;
+  font-weight: 630;
+}
