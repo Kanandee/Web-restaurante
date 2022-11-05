@@ -5,7 +5,7 @@ body {
 .main-header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  align-items:center;
+  align-items: center;
 }
 
 .main-nav {
@@ -45,9 +45,18 @@ body {
   align-items: center;
   font-size: 40px;
   background: url("img/giphy.gif");
-    background-position: center;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   min-height: 500px;
   font-weight: 630;
+}
+.datosContacto {
+  background-color: rgb(129, 118, 104);
+  display: inline-block;
+  
+  
+}
+.direccion {
+  display: flex;
 }
