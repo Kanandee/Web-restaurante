@@ -1,7 +1,7 @@
 <h1 >Página web de restaurante</h1>
 
 
-[Ver el proyecto] (https://kanandee.github.io/Web-restaurante/)
+[Ver el proyecto](https://kanandee.github.io/Web-restaurante/)
 
 ## Como lo he hecho
 
