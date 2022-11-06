@@ -1,18 +1,17 @@
 body {
   background-color: rgb(47, 45, 45);
+
+
 }
 
 .main-header {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
   align-items: center;
+  width: 100vw;
 }
 
 .main-nav {
   display: flex;
-}
-
-.main-nav {
   list-style: none;
 }
 
@@ -29,8 +28,12 @@ body {
 }
 .logo {
   display: flex;
-  width: 120px;
+  width: 25vw;
   height: 90px;
+  background-image: url('img/24-247033_icono-de-sushi.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .titulo {
   display: flex;
@@ -44,6 +47,8 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 40px;
+  text-align: center;
+  padding: 20px 30px;
   background: url("img/giphy.gif");
   background-position: center;
   background-repeat: no-repeat;
@@ -78,4 +83,17 @@ body {
   height: 100%;
   display: flex;
   justify-content: center;
+} 
+
+@media (max-width: 575px){
+  * {
+    font-size: 1em!important;
+  }
+}
+@media (min-width:768px) {
+  .logo{
+    background-size: contain;
+    background-color: whitesmoke;
+    width: 10vw;
+  }
 }
